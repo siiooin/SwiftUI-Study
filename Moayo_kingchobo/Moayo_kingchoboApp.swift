@@ -11,7 +11,7 @@ import SwiftUI
 struct Moayo_kingchoboApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ThumbnailView()
         }
     }
 }
