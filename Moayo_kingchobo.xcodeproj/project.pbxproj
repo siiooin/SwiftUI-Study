@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		87E07C2A3091ECF000690780 /* Moayo-kingchobo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Moayo-kingchobo-Info.plist"; sourceTree = "<group>"; };
 		AE6EEC39307B9B050064E978 /* Moayo_kingchobo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moayo_kingchobo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		87E07C1F3091EC6E00690780 /* Font */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Font;
+			sourceTree = "<group>";
+		};
 		AE6EEC3B307B9B050064E978 /* Moayo_kingchobo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Moayo_kingchobo;
@@ -30,8 +36,10 @@
 		AE6EEC30307B9B050064E978 = {
 			isa = PBXGroup;
 			children = (
+				87E07C2A3091ECF000690780 /* Moayo-kingchobo-Info.plist */,
 				AE6EEC3B307B9B050064E978 /* Moayo_kingchobo */,
 				AE6EEC3A307B9B050064E978 /* Products */,
+				87E07C1F3091EC6E00690780 /* Font */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +65,7 @@
 			buildRules = (
 			);
 			fileSystemSynchronizedGroups = (
+				87E07C1F3091EC6E00690780 /* Font */,
 				AE6EEC3B307B9B050064E978 /* Moayo_kingchobo */,
 			);
 			name = Moayo_kingchobo;
@@ -243,6 +252,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Moayo-kingchobo-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -274,6 +284,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Moayo-kingchobo-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

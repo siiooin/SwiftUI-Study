@@ -8,12 +8,11 @@
 import SwiftUI
 
 struct LikeButtonView: View {
-    @Binding var isLiked: Bool
+    let isLiked: Bool
+    let action: () -> Void
     
     var body: some View {
-        Button {
-            isLiked.toggle()
-        } label: {
+        Button(action: action) {
             Image(isLiked ? "Like 1" : "LikeEmpty")
                 .resizable()
                 .frame(width: 28, height: 28)
